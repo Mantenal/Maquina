@@ -16,23 +16,23 @@
         android:layout_marginStart="24dp"
         android:text="Confirmar    "
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editText4"
+        app:layout_constraintBottom_toBottomOf="@+id/C_confirmar"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/C_contra_L"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintBottom_toTopOf="@+id/C_confirmar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/editText4" />
+        app:layout_constraintStart_toStartOf="@+id/C_confirmar" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/C_confirmar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
@@ -40,21 +40,21 @@
         android:layout_marginStart="24dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/B_registrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/C_correo_L"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintBottom_toTopOf="@+id/C_contra_L"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/editText3" />
+        app:layout_constraintStart_toStartOf="@+id/C_contra_L" />
 
     <TextView
         android:id="@+id/textView4"
@@ -63,7 +63,7 @@
         android:layout_marginBottom="8dp"
         android:text="Correo"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editText5"
+        app:layout_constraintBottom_toBottomOf="@+id/C_correo_L"
         app:layout_constraintStart_toStartOf="@+id/textView5" />
 
     <TextView
@@ -73,23 +73,23 @@
         android:layout_marginBottom="8dp"
         android:text="Contraseña"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+        app:layout_constraintBottom_toBottomOf="@+id/C_contra_L"
         app:layout_constraintStart_toStartOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/B_registrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="Registrar"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button4" />
+        app:layout_constraintBottom_toTopOf="@+id/B_login"
+        app:layout_constraintEnd_toEndOf="@+id/B_login"
+        app:layout_constraintStart_toStartOf="@+id/B_login" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/B_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -108,7 +108,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintBottom_toTopOf="@+id/C_correo_L"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
