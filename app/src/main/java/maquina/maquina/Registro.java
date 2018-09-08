@@ -31,10 +31,11 @@ public class Registro extends AppCompatActivity {
             }
         });
 
-        Login.setOnClickListener(new View.OnClickListener(){
+        Registro.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Registro Exitoso", Toast.LENGTH_SHORT);
+                Toast toast =  Toast.makeText(getApplicationContext(), "Registro Exitoso", Toast.LENGTH_SHORT);
+                toast.show();
             }
         });
 
